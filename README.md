@@ -27,9 +27,11 @@ key_log.txt – Continuous text of captured keystrokes
 
 key_log.json – JSON list of keystroke events such as:
 
+```python
 { "Pressed": "'a'" }
 { "Held": "'a'" }
 { "Released": "'a'" }
+```
 
 🚀 How It Works
 
@@ -47,15 +49,12 @@ Allows the user to start or stop the keylogger at any time
 
 Make sure you have the required dependencies:
 
+```python
 pip install pynput
-
+```
 
 Then run:
 
+```python
 python keylogger.py
-
-⚠️ Disclaimer
-
-This project is intended strictly for educational and personal use only.
-Do NOT run this program on any computer without full permission.
-Unauthorized keylogging may be illegal and unethical.
+```
